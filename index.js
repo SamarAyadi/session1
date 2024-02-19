@@ -36,7 +36,7 @@ const server = httpServer.createServer(function (req, res) {
       res.end(chunk);
     });
   } else {
-    res.end("404");
+    res.end("404");  
   }
 });
 
